@@ -1,4 +1,4 @@
-@regression @temp
+@regression 
 
 
 Feature: Verify temp timeline

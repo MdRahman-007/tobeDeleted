@@ -9,15 +9,11 @@ formatter.feature({
     {
       "line": 1,
       "name": "@regression"
-    },
-    {
-      "line": 1,
-      "name": "@temp"
     }
   ]
 });
 formatter.before({
-  "duration": 2979066023,
+  "duration": 3078543114,
   "status": "passed"
 });
 formatter.scenario({
@@ -53,25 +49,25 @@ formatter.match({
   "location": "DarkSkySD.iamOnHomePage()"
 });
 formatter.result({
-  "duration": 356737396,
+  "duration": 389512192,
   "status": "passed"
 });
 formatter.match({
   "location": "DarkSkySD.clickOnTimeMachine()"
 });
 formatter.result({
-  "duration": 238435354,
+  "duration": 191666777,
   "status": "passed"
 });
 formatter.match({
   "location": "DarkSkySD.verifyTodaysDate()"
 });
 formatter.result({
-  "duration": 60376483,
+  "duration": 56246654,
   "status": "passed"
 });
 formatter.after({
-  "duration": 110015787,
+  "duration": 110363918,
   "status": "passed"
 });
 });
