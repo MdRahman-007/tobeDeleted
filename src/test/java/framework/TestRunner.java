@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
         // Path to your feature file
         features = {"src/test/resources/feature/DarkSky.feature"},
         // Specify tags to be executed
-        tags     = {"@temp-1"},
+        tags     = {"@temp-3"},
         // Specify step definition package name (Note: make sure to have this package on current directory)
         glue     = {"stepdefinition"}
 )

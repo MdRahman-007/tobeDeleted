@@ -17,49 +17,61 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2965745372,
+  "duration": 2979066023,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 7,
-  "name": "Verify timeline is displayed in correct format",
+  "line": 20,
+  "name": "Verify time machine calendar",
   "description": "",
-  "id": "verify-temp-timeline;verify-timeline-is-displayed-in-correct-format",
+  "id": "verify-temp-timeline;verify-time-machine-calendar",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 6,
-      "name": "@temp-1"
+      "line": 19,
+      "name": "@temp-3"
     }
   ]
 });
 formatter.step({
-  "line": 8,
+  "line": 21,
   "name": "I am on Darksky home page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 9,
-  "name": "I verify timeline is displayed with two hours incremented",
+  "line": 22,
+  "name": "I click on Time machine",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 23,
+  "name": "I verify date is selected to todays date",
   "keyword": "Then "
 });
 formatter.match({
   "location": "DarkSkySD.iamOnHomePage()"
 });
 formatter.result({
-  "duration": 334331838,
+  "duration": 356737396,
   "status": "passed"
 });
 formatter.match({
-  "location": "DarkSkySD.verifyTwoHoursIncrement()"
+  "location": "DarkSkySD.clickOnTimeMachine()"
 });
 formatter.result({
-  "duration": 368011683,
+  "duration": 238435354,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DarkSkySD.verifyTodaysDate()"
+});
+formatter.result({
+  "duration": 60376483,
   "status": "passed"
 });
 formatter.after({
-  "duration": 111390658,
+  "duration": 110015787,
   "status": "passed"
 });
 });

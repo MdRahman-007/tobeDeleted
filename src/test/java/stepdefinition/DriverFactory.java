@@ -17,7 +17,7 @@ public class DriverFactory {
 
         private static WebDriver driver = null;
 
-        @Before
+        @Before ("@temp")
         public static void before() {
 
             ConfigReader configReader = new ConfigReader();
@@ -29,7 +29,7 @@ public class DriverFactory {
             driver.get(configReader.getUrl());
         }
 
-        @After
+        @After ("@temp")
         public static void after() {
             if (driver != null) {
                 driver.manage().deleteAllCookies();
